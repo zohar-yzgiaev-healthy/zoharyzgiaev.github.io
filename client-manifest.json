@@ -90,48 +90,48 @@
       0,
       15
     ],
-    "@docusaurus-plugin-content-docs/zoharyzgiaev-github-io-docs-823.json": [
+    "@docusaurus-plugin-content-docs/docs-b5f.json": [
       16
     ],
     "main": [
       28,
       17
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-d73.json": [
+    "@docusaurus-plugin-content-blog/blog-c06.json": [
       18
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-dive-deep-into-ast-89e.json": [
+    "@docusaurus-plugin-content-blog/blog-dive-deep-into-ast-893.json": [
       19
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-tags-ast-34e.json": [
+    "@docusaurus-plugin-content-blog/blog-tags-ast-c2b.json": [
       20
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-tags-git-04d.json": [
+    "@docusaurus-plugin-content-blog/blog-tags-git-b15.json": [
       21
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-tags-internals-c47.json": [
+    "@docusaurus-plugin-content-blog/blog-tags-internals-207.json": [
       22
     ],
-    "@docusaurus-plugin-content-docs/zoharyzgiaev-github-io-docs-doc-1-d25.json": [
+    "@docusaurus-plugin-content-docs/docs-doc-1-6ac.json": [
       23
     ],
-    "@docusaurus-plugin-content-docs/zoharyzgiaev-github-io-docs-doc-2-7df.json": [
+    "@docusaurus-plugin-content-docs/docs-doc-2-29a.json": [
       24
     ],
-    "@docusaurus-plugin-content-docs/zoharyzgiaev-github-io-docs-doc-3-e1b.json": [
+    "@docusaurus-plugin-content-docs/docs-doc-3-72e.json": [
       25
     ],
-    "@docusaurus-plugin-content-docs/zoharyzgiaev-github-io-docs-mdx-598.json": [
+    "@docusaurus-plugin-content-docs/docs-mdx-04f.json": [
       26
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-git-internals-d21.json": [
+    "@docusaurus-plugin-content-blog/blog-git-internals-f6b.json": [
       27
     ],
     "runtime~main": [
       17,
       28
     ],
-    "@docusaurus-plugin-content-blog/zoharyzgiaev-github-io-blog-tags-tags-ad9.json": [
+    "@docusaurus-plugin-content-blog/blog-tags-tags-4c2.json": [
       29
     ],
     "@theme/NotFound": [
@@ -145,14 +145,14 @@
         {
           "file": "common.beb5263729d2db16c046.css",
           "hash": "3973059e065d454f1a42",
-          "publicPath": "/zoharyzgiaev.github.io/common.beb5263729d2db16c046.css"
+          "publicPath": "/common.beb5263729d2db16c046.css"
         }
       ],
       "js": [
         {
           "file": "common.06bf67d2deb15cea9e38.js",
           "hash": "3973059e065d454f1a42",
-          "publicPath": "/zoharyzgiaev.github.io/common.06bf67d2deb15cea9e38.js"
+          "publicPath": "/common.06bf67d2deb15cea9e38.js"
         }
       ]
     },
@@ -161,14 +161,14 @@
         {
           "file": "1.2d0cefca6f8bbc3f601c.css",
           "hash": "2f50708a504d2642e71f",
-          "publicPath": "/zoharyzgiaev.github.io/1.2d0cefca6f8bbc3f601c.css"
+          "publicPath": "/1.2d0cefca6f8bbc3f601c.css"
         }
       ],
       "js": [
         {
           "file": "1.fe8945358b37b741bfd1.js",
           "hash": "2f50708a504d2642e71f",
-          "publicPath": "/zoharyzgiaev.github.io/1.fe8945358b37b741bfd1.js"
+          "publicPath": "/1.fe8945358b37b741bfd1.js"
         }
       ]
     },
@@ -177,14 +177,14 @@
         {
           "file": "component---theme-blog-list-pagea-6-a-7ba.42d18faa279882580cbb.css",
           "hash": "33173c6ab886c916d09b",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-list-pagea-6-a-7ba.42d18faa279882580cbb.css"
+          "publicPath": "/component---theme-blog-list-pagea-6-a-7ba.42d18faa279882580cbb.css"
         }
       ],
       "js": [
         {
           "file": "component---theme-blog-list-pagea-6-a-7ba.222c816c794f2bf0f110.js",
           "hash": "33173c6ab886c916d09b",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-list-pagea-6-a-7ba.222c816c794f2bf0f110.js"
+          "publicPath": "/component---theme-blog-list-pagea-6-a-7ba.222c816c794f2bf0f110.js"
         }
       ]
     },
@@ -193,14 +193,14 @@
         {
           "file": "component---theme-blog-post-pageccc-cab.42d18faa279882580cbb.css",
           "hash": "a712e194a03066dc93a5",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-post-pageccc-cab.42d18faa279882580cbb.css"
+          "publicPath": "/component---theme-blog-post-pageccc-cab.42d18faa279882580cbb.css"
         }
       ],
       "js": [
         {
           "file": "component---theme-blog-post-pageccc-cab.f1186a1edfdf501c30c8.js",
           "hash": "a712e194a03066dc93a5",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-post-pageccc-cab.f1186a1edfdf501c30c8.js"
+          "publicPath": "/component---theme-blog-post-pageccc-cab.f1186a1edfdf501c30c8.js"
         }
       ]
     },
@@ -209,7 +209,7 @@
         {
           "file": "component---theme-blog-tags-list-page-01-a-d0b.4fb0941ca83ee2d84137.js",
           "hash": "da99a9afaf8afdf69097",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-tags-list-page-01-a-d0b.4fb0941ca83ee2d84137.js"
+          "publicPath": "/component---theme-blog-tags-list-page-01-a-d0b.4fb0941ca83ee2d84137.js"
         }
       ]
     },
@@ -218,14 +218,14 @@
         {
           "file": "component---theme-blog-tags-posts-page-687-b6c.42d18faa279882580cbb.css",
           "hash": "d31195c43a80a4bf067f",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-tags-posts-page-687-b6c.42d18faa279882580cbb.css"
+          "publicPath": "/component---theme-blog-tags-posts-page-687-b6c.42d18faa279882580cbb.css"
         }
       ],
       "js": [
         {
           "file": "component---theme-blog-tags-posts-page-687-b6c.b77235e0c9a5d4130527.js",
           "hash": "d31195c43a80a4bf067f",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-blog-tags-posts-page-687-b6c.b77235e0c9a5d4130527.js"
+          "publicPath": "/component---theme-blog-tags-posts-page-687-b6c.b77235e0c9a5d4130527.js"
         }
       ]
     },
@@ -234,14 +234,14 @@
         {
           "file": "component---theme-doc-item-178-a40.de2648345892298aff25.css",
           "hash": "d0207481b6feec1813c9",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-doc-item-178-a40.de2648345892298aff25.css"
+          "publicPath": "/component---theme-doc-item-178-a40.de2648345892298aff25.css"
         }
       ],
       "js": [
         {
           "file": "component---theme-doc-item-178-a40.01a6bae5125d92f69a9a.js",
           "hash": "d0207481b6feec1813c9",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-doc-item-178-a40.01a6bae5125d92f69a9a.js"
+          "publicPath": "/component---theme-doc-item-178-a40.01a6bae5125d92f69a9a.js"
         }
       ]
     },
@@ -250,95 +250,95 @@
         {
           "file": "component---theme-doc-page-1-be-9be.a7dc664af81736e8f518.css",
           "hash": "403f12f124c10f465ea6",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-doc-page-1-be-9be.a7dc664af81736e8f518.css"
+          "publicPath": "/component---theme-doc-page-1-be-9be.a7dc664af81736e8f518.css"
         }
       ],
       "js": [
         {
           "file": "component---theme-doc-page-1-be-9be.ef3ebb8014acb6644709.js",
           "hash": "403f12f124c10f465ea6",
-          "publicPath": "/zoharyzgiaev.github.io/component---theme-doc-page-1-be-9be.ef3ebb8014acb6644709.js"
+          "publicPath": "/component---theme-doc-page-1-be-9be.ef3ebb8014acb6644709.js"
         }
       ]
     },
     "8": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-blog-182-4a4.42bea71e00ec6c6ab5d5.js",
-          "hash": "1bf6bcbd83b15bc12454",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-blog-182-4a4.42bea71e00ec6c6ab5d5.js"
+          "file": "content---blog-182-9c5.42bea71e00ec6c6ab5d5.js",
+          "hash": "c142e7fadf03d0f52c6a",
+          "publicPath": "/content---blog-182-9c5.42bea71e00ec6c6ab5d5.js"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-blog-dive-deep-into-astf-57-7d0.f40fb3bf39b4faf028f1.js",
-          "hash": "9ff492a3029ad304e531",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-blog-dive-deep-into-astf-57-7d0.f40fb3bf39b4faf028f1.js"
+          "file": "content---blog-dive-deep-into-astf-57-511.f40fb3bf39b4faf028f1.js",
+          "hash": "cae774a6b91d295d9d17",
+          "publicPath": "/content---blog-dive-deep-into-astf-57-511.f40fb3bf39b4faf028f1.js"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-blog-git-internalse-44-062.3c82f465f6872ef80b5c.js",
-          "hash": "3e4c1cff2fcd659d2212",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-blog-git-internalse-44-062.3c82f465f6872ef80b5c.js"
+          "file": "content---blog-git-internalse-44-e34.3c82f465f6872ef80b5c.js",
+          "hash": "def958b933c3e2efe82b",
+          "publicPath": "/content---blog-git-internalse-44-e34.3c82f465f6872ef80b5c.js"
         }
       ]
     },
     "11": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-blogd-83-e5b.9c38ba13abdacda89aba.js",
-          "hash": "e6e17d983ca580abc6f2",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-blogd-83-e5b.9c38ba13abdacda89aba.js"
+          "file": "content---blogd-83-12b.9c38ba13abdacda89aba.js",
+          "hash": "1f8b04dc969031cecfe9",
+          "publicPath": "/content---blogd-83-12b.9c38ba13abdacda89aba.js"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-docs-doc-1-b-2-f-91f.351a4cfeba5e01303223.js",
-          "hash": "528a38ef5a2657a59495",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-docs-doc-1-b-2-f-91f.351a4cfeba5e01303223.js"
+          "file": "content---docs-doc-1-b-2-f-e80.351a4cfeba5e01303223.js",
+          "hash": "cb3ec71505223a2139d2",
+          "publicPath": "/content---docs-doc-1-b-2-f-e80.351a4cfeba5e01303223.js"
         }
       ]
     },
     "13": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-docs-doc-2-df-3-91d.398dc09d9d1f2174b853.js",
-          "hash": "14d2818a431dfec3820d",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-docs-doc-2-df-3-91d.398dc09d9d1f2174b853.js"
+          "file": "content---docs-doc-2-df-3-eaa.d94442907ef3b00be6b5.js",
+          "hash": "cc085d483c28ceb59035",
+          "publicPath": "/content---docs-doc-2-df-3-eaa.d94442907ef3b00be6b5.js"
         }
       ]
     },
     "14": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-docs-doc-3616-c0b.90d98909c39ef56d0dce.js",
-          "hash": "07391d589070073c131b",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-docs-doc-3616-c0b.90d98909c39ef56d0dce.js"
+          "file": "content---docs-doc-3616-40c.e92f452d504c0bc355a6.js",
+          "hash": "54a78d082b9cf216d474",
+          "publicPath": "/content---docs-doc-3616-40c.e92f452d504c0bc355a6.js"
         }
       ]
     },
     "15": {
       "js": [
         {
-          "file": "content---zoharyzgiaev-github-io-docs-mdxce-3-abb.449e94b430e4f34734ff.js",
-          "hash": "51071e11916eb5218194",
-          "publicPath": "/zoharyzgiaev.github.io/content---zoharyzgiaev-github-io-docs-mdxce-3-abb.449e94b430e4f34734ff.js"
+          "file": "content---docs-mdxce-3-7d1.17d5f9b02966db379fea.js",
+          "hash": "1491aec09543edfec3c5",
+          "publicPath": "/content---docs-mdxce-3-7d1.17d5f9b02966db379fea.js"
         }
       ]
     },
     "16": {
       "js": [
         {
-          "file": "docsMetadata---zoharyzgiaev-github-io-docs-604-3ce.3187a17b1b3d50e522d2.js",
-          "hash": "83ca83fc1fd12f1f0bba",
-          "publicPath": "/zoharyzgiaev.github.io/docsMetadata---zoharyzgiaev-github-io-docs-604-3ce.3187a17b1b3d50e522d2.js"
+          "file": "docsMetadata---docs-1-da-721.03a16053328592c69b37.js",
+          "hash": "c6a90fd990e4f4064677",
+          "publicPath": "/docsMetadata---docs-1-da-721.03a16053328592c69b37.js"
         }
       ]
     },
@@ -346,123 +346,123 @@
       "css": [
         {
           "file": "main.836d044100531021daee.css",
-          "hash": "584c7bd04a877ddb6adc",
-          "publicPath": "/zoharyzgiaev.github.io/main.836d044100531021daee.css"
+          "hash": "15f894fb2481987a8ae2",
+          "publicPath": "/main.836d044100531021daee.css"
         }
       ],
       "js": [
         {
-          "file": "main.d88c17760a6e97faad5a.js",
-          "hash": "584c7bd04a877ddb6adc",
-          "publicPath": "/zoharyzgiaev.github.io/main.d88c17760a6e97faad5a.js"
+          "file": "main.6ce7aa9963deee7ee6a8.js",
+          "hash": "15f894fb2481987a8ae2",
+          "publicPath": "/main.6ce7aa9963deee7ee6a8.js"
         }
       ]
     },
     "18": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-blog-698-200.bd4fd7f2402e50ec3d80.js",
-          "hash": "ab8030ca0b02bb9fbc02",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-blog-698-200.bd4fd7f2402e50ec3d80.js"
+          "file": "metadata---blog-1-a-9-d63.4679278f388f6b599a22.js",
+          "hash": "9c502f0a99699727eb3d",
+          "publicPath": "/metadata---blog-1-a-9-d63.4679278f388f6b599a22.js"
         }
       ]
     },
     "19": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-blog-dive-deep-into-ast-06-a-2c7.1428328ae7ba86fe4565.js",
-          "hash": "225457edd4a4921c593c",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-blog-dive-deep-into-ast-06-a-2c7.1428328ae7ba86fe4565.js"
+          "file": "metadata---blog-dive-deep-into-astdcf-78c.ef3efba524e487d5fa12.js",
+          "hash": "7113a9a3b0d13471b193",
+          "publicPath": "/metadata---blog-dive-deep-into-astdcf-78c.ef3efba524e487d5fa12.js"
         }
       ]
     },
     "20": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-blog-tags-ast-84-f-1cf.c8e3f3c9d64ee6dba1ef.js",
-          "hash": "725e4773ade49c433a84",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-blog-tags-ast-84-f-1cf.c8e3f3c9d64ee6dba1ef.js"
+          "file": "metadata---blog-tags-ast-428-da2.4a6e1638b51ec512cdd5.js",
+          "hash": "d9845270ad259252f8d4",
+          "publicPath": "/metadata---blog-tags-ast-428-da2.4a6e1638b51ec512cdd5.js"
         }
       ]
     },
     "21": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-blog-tags-git-5-dd-079.888aeabb298b14483789.js",
-          "hash": "da41a014d06459cd23a6",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-blog-tags-git-5-dd-079.888aeabb298b14483789.js"
+          "file": "metadata---blog-tags-git-569-47e.fc26f5851032763182fb.js",
+          "hash": "e81c80fdb272c66cd426",
+          "publicPath": "/metadata---blog-tags-git-569-47e.fc26f5851032763182fb.js"
         }
       ]
     },
     "22": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-blog-tags-internals-37-e-430.1b6a184e107debee5f53.js",
-          "hash": "c4dd87212de2617d223a",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-blog-tags-internals-37-e-430.1b6a184e107debee5f53.js"
+          "file": "metadata---blog-tags-internalsa-02-401.c8a8537b70d55324562f.js",
+          "hash": "dc671ab1eac2b4113491",
+          "publicPath": "/metadata---blog-tags-internalsa-02-401.c8a8537b70d55324562f.js"
         }
       ]
     },
     "23": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-docs-doc-1-b-99-124.c3e22fa6d669af9d7a4b.js",
-          "hash": "4fc9c7d23adaa7ad7d1e",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-docs-doc-1-b-99-124.c3e22fa6d669af9d7a4b.js"
+          "file": "metadata---docs-doc-1456-c0d.772ee8dbb3baf22cf75d.js",
+          "hash": "18954a3a99ddb4b4b4e6",
+          "publicPath": "/metadata---docs-doc-1456-c0d.772ee8dbb3baf22cf75d.js"
         }
       ]
     },
     "24": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-docs-doc-2-cf-3-cc3.ec81bec6a2b6b099ee5e.js",
-          "hash": "bf24c612b86f3f4eba10",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-docs-doc-2-cf-3-cc3.ec81bec6a2b6b099ee5e.js"
+          "file": "metadata---docs-doc-2-bac-827.fe2749e30f96e4f10646.js",
+          "hash": "83cfaed10ca1095869de",
+          "publicPath": "/metadata---docs-doc-2-bac-827.fe2749e30f96e4f10646.js"
         }
       ]
     },
     "25": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-docs-doc-3-bf-7-9fb.18ba7b2ff8e96de4026a.js",
-          "hash": "07f49779f6c86473362e",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-docs-doc-3-bf-7-9fb.18ba7b2ff8e96de4026a.js"
+          "file": "metadata---docs-doc-3958-524.b54fd65e0c16095e36d8.js",
+          "hash": "3d8624118c016f86a784",
+          "publicPath": "/metadata---docs-doc-3958-524.b54fd65e0c16095e36d8.js"
         }
       ]
     },
     "26": {
       "js": [
         {
-          "file": "metadata---zoharyzgiaev-github-io-docs-mdx-4-e-1-996.aa69782d028ad4d54c7b.js",
-          "hash": "f3d70ced3f5cf2059c16",
-          "publicPath": "/zoharyzgiaev.github.io/metadata---zoharyzgiaev-github-io-docs-mdx-4-e-1-996.aa69782d028ad4d54c7b.js"
+          "file": "metadata---docs-mdx-514-01a.56e5986200dfe0ce85c6.js",
+          "hash": "81ba9a1bcce4612d1523",
+          "publicPath": "/metadata---docs-mdx-514-01a.56e5986200dfe0ce85c6.js"
         }
       ]
     },
     "27": {
       "js": [
         {
-          "file": "nextItem---zoharyzgiaev-github-io-blog-dive-deep-into-ast-608-686.c20f446129c5e48d335e.js",
-          "hash": "91f690ff2db9cc037b9b",
-          "publicPath": "/zoharyzgiaev.github.io/nextItem---zoharyzgiaev-github-io-blog-dive-deep-into-ast-608-686.c20f446129c5e48d335e.js"
+          "file": "nextItem---blog-dive-deep-into-asteef-c4b.7736a0a4a4ba9c8c78eb.js",
+          "hash": "63b8ea7255dd652a7458",
+          "publicPath": "/nextItem---blog-dive-deep-into-asteef-c4b.7736a0a4a4ba9c8c78eb.js"
         }
       ]
     },
     "28": {
       "js": [
         {
-          "file": "runtime~main.7746c61661fcdf27e273.js",
-          "hash": "bf29be44780c072395b8",
-          "publicPath": "/zoharyzgiaev.github.io/runtime~main.7746c61661fcdf27e273.js"
+          "file": "runtime~main.d47d1cab049f55c88d75.js",
+          "hash": "e103b3bffc575832ccec",
+          "publicPath": "/runtime~main.d47d1cab049f55c88d75.js"
         }
       ]
     },
     "29": {
       "js": [
         {
-          "file": "tags---zoharyzgiaev-github-io-blog-tagsc-19-284.12763690d212d06d27cd.js",
-          "hash": "f4957ea6f7cdbb980791",
-          "publicPath": "/zoharyzgiaev.github.io/tags---zoharyzgiaev-github-io-blog-tagsc-19-284.12763690d212d06d27cd.js"
+          "file": "tags---blog-tagsba-6-d64.4db9fd442cdcec470727.js",
+          "hash": "0e12b5d591b119e13979",
+          "publicPath": "/tags---blog-tagsba-6-d64.4db9fd442cdcec470727.js"
         }
       ]
     },
@@ -471,7 +471,7 @@
         {
           "file": "30.85ead5429ff981efe01e.js",
           "hash": "5a27003712f53c068a6d",
-          "publicPath": "/zoharyzgiaev.github.io/30.85ead5429ff981efe01e.js"
+          "publicPath": "/30.85ead5429ff981efe01e.js"
         }
       ]
     }
