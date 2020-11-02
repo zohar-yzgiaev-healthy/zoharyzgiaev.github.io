@@ -7,7 +7,7 @@ thumbnail: /assets/header.png
 ---
 ![](/assets/header.png)
 
-During the last few days I’ve been stumbled upon AST in different aspects. I’ve actually started to think about the implications of understanding AST as it appears in most of the projects I work on. Not only AST is part of the compilation process but it is also a mechanism many modern tools uses nowadays. In this blog post I will try to explain what is AST, how it works, real world use cases and finally I will summarise most of the implications at least in my mind to grasp AST concept.
+After a thoughtful discussion with Raziel (my roommate) on the challenge of finding similarities between source codes i've started investigating AST in more-depth. In this blog post I strive to explain what is AST, it's use cases and real world applications. 
 
 # WHAT IS AST?
 
@@ -15,9 +15,9 @@ An Abstract Syntax Tree, or AST for short, is a deeply nested object that repres
 
 AST used widely in compilers to represent the structure of program code, but can also be found inside transpilers, linters, code generation tools or in other applications where the understanding of the code is a matter.
 
-The typical implementation of an AST (speaking mostly about OO languages such as Java/C#) makes heavy use of polymorphism. The nodes in the AST are typically implemented with a variety of classes, all deriving from a common`AstNodeclass.`
+The typical implementation of an AST (speaking mostly about OO languages) makes heavy use of polymorphism. The nodes in the AST are typically implemented with a variety of classes, all deriving from a common `AstNodeclass.`
 
-For each syntactical construct in the language you are processing, there will be a class representing that construct in AST, for an example a`VariableNode`node will represent variable names, AssignmentNode will represent an assignment operations, etc. Each node type specifies if that node has children, if so than how many children it has and possibly of what type. For an example, a`ConstantNode`will typically have no children, whereas an`AssignmentNode`will have two children associated to it.
+For each syntactical construct in the language you are processing, there will be a class representing that construct in AST, for an example a `VariableNode `node will represent variable names, AssignmentNode will represent an assignment operations, etc. Each node type specifies if that node has children, if so than how many children it has and possibly of what type. For an example, a `ConstantNode `will typically have no children, whereas an `AssignmentNode `will have two children associated to it.
 
 Many times you will encounter the acronym of Concrete Syntax Tree (aka Parse Tree) vs Syntax Tree, let’s clarify the difference between the two. Concrete Syntax tree is a concrete representation of the input. The concrete syntax tree retains all of the information of the input. AST however is an abstract representation of the input. Parents are not present in the AST because the associations are derivable from the tree structure.
 
@@ -86,9 +86,9 @@ class MyVisitor(ast.nodeVisitor):
 
 
 
-nodeVisitor is a base class that walks the abstract syntax tree and calls a visitor function for every node. The nodeVisitor base class implements the visitor design pattern, which is a way of seperating an algorithm from an object structure on which it operates. The visitor design patterns allows adding new virtual functions to a family of classes, without modifying the classes. classes. Instead, a visitor class is created that implements all of the appropriate specialisations of the virtual function.
+nodeVisitor is a base class that walks the abstract syntax tree and calls a visitor function for every node. The nodeVisitor base class implements the visitor design pattern, which is a way of separating an algorithm from an object structure on which it operates. The visitor design patterns allows adding new virtual functions to a family of classes, without modifying the classes. classes. Instead, a visitor class is created that implements all of the appropriate specialisations of the virtual function.
 
-`Besides visiting the nodes of the tree we can walk down the tree and allow modification of nodes. Usually modifying the tree nodes will be done by using the nodeTransformer implementation of the transformer design pattern. Basically, the nodeTransformer will walk the AST and use the return value of the visitor methods to replace or remove the old node.
+Besides visiting the nodes of the tree we can walk down the tree and allow modification of nodes. Usually modifying the tree nodes will be done by using the nodeTransformer implementation of the transformer design pattern. Basically, the nodeTransformer will walk the AST and use the return value of the visitor methods to replace or remove the old node.
 
 ## AST Use Cases
 
@@ -488,8 +488,6 @@ In grasp, GraphQL is a query language for your API, and a server-side runtime fo
 
 Let’s take a look at the following Golang snippet:
 
-
-
 ```
 import (
     "fmt"
@@ -546,6 +544,4 @@ As we can see, we introduced a new scalar type which on parseLiteral hook calls 
 
 ## Summary
 
-Now, that we understand AST concept we’re one step closer to building our own linter / transpiler / minifer / code generation tool / compiler. As always, if you have any questions or suggestions please LMK.
-
-As we can see from the code, babel walks through the nodes of the AST and applies the parser function on each nodeVisitor.
+Understanding AST and its usage helps us understand core mechanisms applied in different tools such as compilers, code generations, linters, etc. In the upcoming blog post I will explain how to use AST to find similarities between source codes.
