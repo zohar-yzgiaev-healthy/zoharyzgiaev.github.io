@@ -3,6 +3,7 @@ template: BlogPost
 path: /dive-deep-into-ast
 date: 2020-11-02T10:00:58.632Z
 title: Dive deep into AST
+thumbnail: /assets/header.png
 ---
 ![](/assets/header.png)
 
@@ -22,11 +23,17 @@ Many times you will encounter the acronym of Concrete Syntax Tree (aka Parse Tre
 
 Let’s look at a simple AST example of a pseudo-code:
 
+
+
 ```
 (add 2 (subtract 4 2))
 ```
 
+
+
 For the following pseudo code example the following tree would be generated:
+
+
 
 ```
 {
@@ -60,7 +67,11 @@ For the following pseudo code example the following tree would be generated:
 }
 ```
 
+
+
 AST can also be transformed using design patterns, most widely the visitor pattern is being used to navigate through the AST, let’s take a look of the following example written in Python:
+
+
 
 ```
 import ast
@@ -72,6 +83,8 @@ class MyVisitor(ast.nodeVisitor):
     def visit_Num(self, node):
         print node.n
 ```
+
+
 
 nodeVisitor is a base class that walks the abstract syntax tree and calls a visitor function for every node. The nodeVisitor base class implements the visitor design pattern, which is a way of seperating an algorithm from an object structure on which it operates. The visitor design patterns allows adding new virtual functions to a family of classes, without modifying the classes. classes. Instead, a visitor class is created that implements all of the appropriate specialisations of the virtual function.
 
@@ -88,6 +101,8 @@ Most compilers break down into 3 primary stages: Parsing, Transformation, and co
 3. Code generation - takes the transformed representation of the code and turns it into the new code. (Again, using transformation
 
 Let’s take a look at the [Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler) source code, this compiler compiles lisp-like function calls into C-like function calls. The following snippet code takes an array of tokens and turns it into an AST.
+
+
 
 ```
 function walk() {
@@ -186,10 +201,13 @@ function walk() {
 }
 ```
 
-\
+
+
 As we can see from the sample code above, our defined walk function creates the node depending on the type of the token, each node has both type and value fields associated to it.
 
 Than, let’s take a look at how we can walk through the tree and visit each node:
+
+
 
 ```
 // So we define a traverser function which accepts an AST and a
@@ -250,8 +268,11 @@ function traverser(ast, visitor) {
 }
 ```
 
-\
+
+
 Next stage would be the transformation which is going to take the AST that we have build and pass it to our traverser function with a visitor and will create a new AST. (Usually, each programming language has it’s own constraints and therefore it’s own AST)
+
+
 
 ```
 function transformer(ast) {
@@ -332,7 +353,11 @@ function transformer(ast) {
 }
 ```
 
+
+
 Lastly, we would need to generate the code by recursively printing each node in the tree into one giant string.
+
+
 
 ```
 function codeGenerator(node) {
@@ -374,13 +399,19 @@ function codeGenerator(node) {
   }
 ```
 
+
+
 Voila! We’ve done writing a simple compiler using AST, as you can see from the above examples understanding AST will help us as developers to understand it programmatically and create applications which relies on this kind of understanding.
+
+
 
 ### 2nd use case - Babel: compiler for writing next generation JavaScript
 
 Babel which is in a wide use today, also uses AST in order to parse the input code, travers through it and transforms it in order to generate the output code.
 
 Let’s take a look at the parsing stage of Babel:
+
+
 
 ```
 export default function normalizeFile(
@@ -449,13 +480,15 @@ export default function normalizeFile(
 }
 ```
 
-### \
 
-**3rd use case - Golang GraphQL JSON implementation: “JSON, JSON everywhere”**
+
+### **3rd use case - Golang GraphQL JSON implementation: “JSON, JSON everywhere”**
 
 In grasp, GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. Before couple of months I had to implement a backend component with GraphQL in Golang, what got me confused at first is that sometimes your API needs are to return a JSON object according to a custom query. The problems becomes more clear when I understood that in GraphQL we need to define our API types as scalars (boolean, number, string) , list or enums or we have to define custom types but after all they have to return simple scalars. So according to those rules, how can we introduce the JSON type?
 
 Let’s take a look at the following Golang snippet:
+
+
 
 ```
 import (
@@ -506,6 +539,8 @@ var JSON = graphql.NewScalar(
     },
 )
 ```
+
+
 
 As we can see, we introduced a new scalar type which on parseLiteral hook calls the parseLiteral function. The parseLiteral function takes an AST node, check’s its type and returns its corresponding value (as we said before, each AST node has both a type and value fields). By walking through the AST and exposing the node’s type we can understand the inner behaviour of JSON and create the same concept ourselves.
 
