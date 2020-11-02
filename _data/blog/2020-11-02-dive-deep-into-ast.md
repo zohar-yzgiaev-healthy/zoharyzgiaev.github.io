@@ -4,15 +4,13 @@ path: /dive-deep-into-ast
 date: 2020-11-02T10:00:58.632Z
 title: Dive deep into AST
 ---
-\- IMAGE
+![](/assets/header.png)
 
 During the last few days I’ve been stumbled upon AST in different aspects. I’ve actually started to think about the implications of understanding AST as it appears in most of the projects I work on. Not only AST is part of the compilation process but it is also a mechanism many modern tools uses nowadays. In this blog post I will try to explain what is AST, how it works, real world use cases and finally I will summarise most of the implications at least in my mind to grasp AST concept.
 
 # WHAT IS AST?
 
 An Abstract Syntax Tree, or AST for short, is a deeply nested object that represents code. Usually AST will come in a form of a Tree representation of the abstract syntactic structure of a source code. The “abstract” acronym used in a sense that it does not represent every detail appearing in the real syntax, but rather just the structure, and a syntactic construct like an if-condition-then expression may be denoted by means of a single node with three branches.
-
-
 
 AST used widely in compilers to represent the structure of program code, but can also be found inside transpilers, linters, code generation tools or in other applications where the understanding of the code is a matter.
 
@@ -250,7 +248,6 @@ function traverser(ast, visitor) {
   // with no `parent` because the top level of the AST doesn't have a parent.
   traverseNode(ast, null);
 }
-
 ```
 
 \
@@ -335,8 +332,6 @@ function transformer(ast) {
 }
 ```
 
-
-
 Lastly, we would need to generate the code by recursively printing each node in the tree into one giant string.
 
 ```
@@ -378,8 +373,6 @@ function codeGenerator(node) {
       throw new TypeError(node.type);
   }
 ```
-
-
 
 Voila! We’ve done writing a simple compiler using AST, as you can see from the above examples understanding AST will help us as developers to understand it programmatically and create applications which relies on this kind of understanding.
 
@@ -454,10 +447,10 @@ export default function normalizeFile(
     inputMap
   });
 }
-
 ```
 
 ### \
+
 **3rd use case - Golang GraphQL JSON implementation: “JSON, JSON everywhere”**
 
 In grasp, GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. Before couple of months I had to implement a backend component with GraphQL in Golang, what got me confused at first is that sometimes your API needs are to return a JSON object according to a custom query. The problems becomes more clear when I understood that in GraphQL we need to define our API types as scalars (boolean, number, string) , list or enums or we have to define custom types but after all they have to return simple scalars. So according to those rules, how can we introduce the JSON type?
@@ -514,11 +507,7 @@ var JSON = graphql.NewScalar(
 )
 ```
 
-
-
 As we can see, we introduced a new scalar type which on parseLiteral hook calls the parseLiteral function. The parseLiteral function takes an AST node, check’s its type and returns its corresponding value (as we said before, each AST node has both a type and value fields). By walking through the AST and exposing the node’s type we can understand the inner behaviour of JSON and create the same concept ourselves.
-
-
 
 ## Summary
 
