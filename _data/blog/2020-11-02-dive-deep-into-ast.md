@@ -2,7 +2,7 @@
 template: BlogPost
 path: /dive-deep-into-ast
 date: 2020-11-02T10:00:58.632Z
-title: Dive deep into AST
+title: Dive deep into AST :)
 thumbnail: /assets/header.png
 ---
 ![](/assets/header.png)
