@@ -2,7 +2,7 @@
 template: BlogPost
 path: /dive-deep-into-ast
 date: 2020-11-02T10:00:58.632Z
-title: Dive deep into AST
+title: Dive deep into AST :)
 thumbnail: /assets/header.png
 ---
 ![](/assets/header.png)
@@ -17,15 +17,17 @@ AST used widely in compilers to represent the structure of program code, but can
 
 The typical implementation of an AST (speaking mostly about OO languages) makes heavy use of polymorphism. The nodes in the AST are typically implemented with a variety of classes, all deriving from a common `AstNodeclass.`
 
-For each syntactical construct in the language you are processing, there will be a class representing that construct in AST, for an example a `VariableNode `node will represent variable names, AssignmentNode will represent an assignment operations, etc. Each node type specifies if that node has children, if so than how many children it has and possibly of what type. For an example, a `ConstantNode `will typically have no children, whereas an `AssignmentNode `will have two children associated to it.
+For each syntactical construct in the language you are processing, there will be a class representing that construct in AST, for an example a `VariableNode`node will represent variable names, AssignmentNode will represent an assignment operations, etc. Each node type specifies if that node has children, if so than how many children it has and possibly of what type. For an example, a `ConstantNode`will typically have no children, whereas an `AssignmentNode`will have two children associated to it.
 
 Many times you will encounter the acronym of Concrete Syntax Tree (aka Parse Tree) vs Syntax Tree, let’s clarify the difference between the two. Concrete Syntax tree is a concrete representation of the input. The concrete syntax tree retains all of the information of the input. AST however is an abstract representation of the input. Parents are not present in the AST because the associations are derivable from the tree structure.
+
+
 
 Let’s look at a simple AST example of a pseudo-code:
 
 
 
-```
+```json
 (add 2 (subtract 4 2))
 ```
 
@@ -35,7 +37,7 @@ For the following pseudo code example the following tree would be generated:
 
 
 
-```
+```json
 {
   "type": "Program",
   "body": [
@@ -73,7 +75,7 @@ AST can also be transformed using design patterns, most widely the visitor patte
 
 
 
-```
+```python
 import ast
 class MyVisitor(ast.nodeVisitor):
     def visit_BinaryOp(self, node):
@@ -104,7 +106,7 @@ Let’s take a look at the [Super Tiny Compiler](https://github.com/jamiebuilds/
 
 
 
-```
+```javascript
 function walk() {
   // Inside the walk function we start by grabbing the `current` token.
   let token = tokens[current];
@@ -209,7 +211,7 @@ Than, let’s take a look at how we can walk through the tree and visit each nod
 
 
 
-```
+```javascript
 // So we define a traverser function which accepts an AST and a
 // visitor. Inside we're going to define two functions...
 function traverser(ast, visitor) {
@@ -274,7 +276,7 @@ Next stage would be the transformation which is going to take the AST that we ha
 
 
 
-```
+```javascript
 function transformer(ast) {
   // We'll create a `newAst` which like our previous AST will have a program
   // node.
@@ -359,7 +361,7 @@ Lastly, we would need to generate the code by recursively printing each node in 
 
 
 
-```
+```javascript
 function codeGenerator(node) {
   // We'll break things down by the `type` of the `node`.
   switch (node.type) {
@@ -403,8 +405,6 @@ function codeGenerator(node) {
 
 Voila! We’ve done writing a simple compiler using AST, as you can see from the above examples understanding AST will help us as developers to understand it programmatically and create applications which relies on this kind of understanding.
 
-
-
 ### 2nd use case - Babel: compiler for writing next generation JavaScript
 
 Babel which is in a wide use today, also uses AST in order to parse the input code, travers through it and transforms it in order to generate the output code.
@@ -413,7 +413,7 @@ Let’s take a look at the parsing stage of Babel:
 
 
 
-```
+```javascript
 export default function normalizeFile(
   pluginPasses: PluginPasses,
   options: Object,
@@ -480,15 +480,15 @@ export default function normalizeFile(
 }
 ```
 
-
-
 ### **3rd use case - Golang GraphQL JSON implementation: “JSON, JSON everywhere”**
 
 In grasp, GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. Before couple of months I had to implement a backend component with GraphQL in Golang, what got me confused at first is that sometimes your API needs are to return a JSON object according to a custom query. The problems becomes more clear when I understood that in GraphQL we need to define our API types as scalars (boolean, number, string) , list or enums or we have to define custom types but after all they have to return simple scalars. So according to those rules, how can we introduce the JSON type?
 
 Let’s take a look at the following Golang snippet:
 
-```
+
+
+```go
 import (
     "fmt"
     "github.com/graphql-go/graphql"
